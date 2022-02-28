@@ -16,6 +16,6 @@ exit
 #build docker for this express app
 sudo docker exec -it mongodb bash
 docker build . -t saratb/express-node-mongo-app
-docker run -p 49160:3000 -d saratb/express-node-mongo-app
+docker run -p 49160:3000 -d saratb/express-node-mongo-app 
 
 #Http://localhost:49160/cats
